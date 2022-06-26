@@ -6,7 +6,7 @@ class Calculator {
 
     constructor(num1: number, num2: number, expectedResult: number, failedResult: number) {
         this.num1 = num1;
-        this.num2 = num1;
+        this.num2 = num2;
         this.expectedResult = expectedResult;
         this.failedResult = failedResult;
     };
